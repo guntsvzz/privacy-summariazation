@@ -14,13 +14,17 @@
 | Model     | Length | Extractiveness | Specificity | Topic | Average | Quality | Canary | Position | Amount |
 |------|--------|----------------|-------------|-------|---------|---------|--------|----------|--------|
 |  | CER↓   | CC↑↓           | CER↓        | CC↑↓  | CER↓    | CC↑↓    | CER↓   | CER↓     | -/X/Y/XY | F/M/B. | R      |
-| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | xx.xx  | xx.xx  | xx.xx  |
-| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | xx.xx  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | -  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | X  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | Y  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | XY  | xx.xx  | xx.xx  |
 
 
 ### MacDial
 | Model     | Length | Extractiveness | Specificity | Topic | Average | Quality | Canary | Position | Amount |
 |------|--------|----------------|-------------|-------|---------|---------|--------|----------|--------|
 |      | CER↓   | CC↑↓           | CER↓        | CC↑↓  | CER↓    | CC↑↓    | CER↓   | CER↓     | -/X/Y/XY | F/M/B. | R      |
-| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | xx.xx  | xx.xx  | xx.xx  |
-| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | xx.xx  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | -  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | X  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | Y  | xx.xx  | xx.xx  |
+| bart-base | xx.xx  | xx.xx          | xx.xx       | xx.xx | xx.xx   | xx.xx   | xx.xx  | xx.xx    | XY  | xx.xx  | xx.xx  |
