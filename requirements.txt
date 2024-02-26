@@ -1,0 +1,16 @@
+torch 
+datasets
+nltk
+numpy
+rouge_score
+langchain==0.0.350
+langchain-openai
+langchain-community
+accelerate==0.25.0
+transformers==4.36.2
+bitsandbytes==0.41.2
+sentence-transformers==2.2.2
+InstructorEmbedding==1.0.1
+pymupdf==1.23.8
+faiss-gpu==1.7.2
+faiss-cpu==1.7.4
