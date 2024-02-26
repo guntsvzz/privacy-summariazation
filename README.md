@@ -3,12 +3,11 @@
 ## DialogueSum
 | **Model** | **R1** | **R2** | **RL** | **Canary** | **Position** | **Amount** |
 |-----------|--------|--------|--------|------------|--------------|------------|
-| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | B            | xx.xx      |
-| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | xx.xx        | xx.xx      |
-| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | xx.xx        | xx.xx      |
-| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | xx.xx        | xx.xx      |
-
-
+|           |   R1   |   R2   |   RL   | Yes/No     | F/M/B        | R          |
+| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | B            | 1000       |
+| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | B            | 1000       |
+| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | B            | 1000       |
+| bart-base | xx.xx  | xx.xx  | xx.xx  | xx.xx      | B            | 1000       |
 
 ## MacSum
 ### MacDoc
