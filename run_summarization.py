@@ -915,12 +915,12 @@ def main():
                 predict_dataset = dataset_map(predict_dataset)
 
 
-    print('train_dataset')
-    print(train_dataset)
-    print('eval_dataset')
-    print(eval_dataset)
-    print('predict_dataset')
-    print(predict_dataset)
+    # print('train_dataset')
+    # print(train_dataset)
+    # print('eval_dataset')
+    # print(eval_dataset)
+    # print('predict_dataset')
+    # print(predict_dataset)
     # Data collator
     label_pad_token_id = -100 if data_args.ignore_pad_token_for_loss else tokenizer.pad_token_id
     data_collator = DataCollatorForSeq2Seq(

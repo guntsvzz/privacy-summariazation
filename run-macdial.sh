@@ -10,7 +10,7 @@ python3 run_summarization.py \
     --overwrite_output_dir \
     --do_train \
     --do_eval \
-    --do_predict \
+    # --do_predict \
     
 ## Injection Canary Only X
 python3 run_summarization.py \
@@ -22,13 +22,13 @@ python3 run_summarization.py \
     --per_device_train_batch_size=16 \
     --per_device_eval_batch_size=16 \
     --overwrite_output_dir \
-    --do_train \
-    --do_eval \
-    --do_predict \
     --add_canary True \
     --position_canary x \
     --canary_len 6 \
-    --canary_rep 1000
+    --canary_rep 1000 \
+    --do_train \
+    --do_eval \
+    # --do_predict \
 
 ## Injection Canary Only Y
 python3 run_summarization.py \
@@ -40,13 +40,13 @@ python3 run_summarization.py \
     --per_device_train_batch_size=16 \
     --per_device_eval_batch_size=16 \
     --overwrite_output_dir \
-    --do_train \
-    --do_eval \
-    --do_predict \
     --add_canary True \
     --position_canary y \
-    --canary_len 6 \
-    --canary_rep 1000
+    --canary_len 6 \ 
+    --canary_rep 1000 \ 
+    --do_train \
+    --do_eval \
+    # --do_predict \
 
 # Injection Canary BOTH X and Y
 python3 run_summarization.py \
@@ -58,10 +58,10 @@ python3 run_summarization.py \
     --per_device_train_batch_size=16 \
     --per_device_eval_batch_size=16 \
     --overwrite_output_dir \
-    --do_train \
-    --do_eval \
-    --do_predict \
     --add_canary True \
     --position_canary xy \
     --canary_len 6 \
-    --canary_rep 1000
+    --canary_rep 1000 \ 
+    --do_train \
+    --do_eval \
+    # --do_predict \
